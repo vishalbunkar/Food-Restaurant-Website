@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurent website</title>
+    <link rel="stylesheet" href="food.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+       <nav class="navigation">
+          <div class="logo">
+            <h1>zomato</h1>
+          </div>
+          <ul>
+           <label>
+            <input type="text" placeholder="search ">
+            <button>search</button>
+           </label>
+            <a href="">Home</a>
+            <a id="foods" href="#food">Foods</a>
+            <a id="dishes"href="#bestdish">Best Dishes</a>
+            <a id="treak"href="#ordertreak">Track Order</a>
+            <button id="logBtn">Log in</button>
+          </ul>
+       </nav>
+       <!-- login -->
+         <div class="loginPage">
+          <input type="text" placeholder="Enter email " id="name"><br>
+          <input type="password" placeholder="Enter password" id="pass"><br>
+          <button id="logedBtn">Log In</button>
+         </div> 
+      <!--main page-->
+      <div class="main">
+         <div class="mainText">
+            <h1> Healthy Food For Wealthy<br> Mood</h1>
+            <h2>Upto 20% OFF</h2>
+            <p>
+              We know you’re obviously a fan of desi flavours and have your heart set on it. Your search for<br> the best Indian fusion burgers ends here. With the taste of India in every bite, we have thoughtfully <br> curated our menu to serve the Indian palette.
+            </p>
+            <button>Order Now</button>
+         </div>
+         <img src="mainimg.jpg.jpg" alt="">
+      </div> 
+      <!--card-->
+      <div class="foodcard" id="food">
+        <div class="head">
+            <h1>Our <span>Food's</span></h1>
+        </div>
+        <div class="card" id="card2">
+            <div class="crd">
+                <img src="img1.jpg.jpg" alt="">
+                <div class="cardText">
+                    <h2>Allulose, the new trending sweetener</h2>
+                    <p>70% OFF</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        
+            <div class="card">
+              <div class="crd">
+                <img src="img2.jpg.jpg" alt="">
+                <div class="cardText">
+                    <h2>Burger and Fries,<br>Hold the PFAS</h2>
+                    <p>30% OFF</p>
+                    <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="crd">
+                <img src="imf3jpg.jpg" alt="">
+                <div class="cardText">
+                    <h2>Pizza Sixteen</h2>
+                    <p>70% OFF</p>
+                    <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="crd">
+                <img src="pic1.jpg" alt="">
+                <div class="cardText">
+                    <h2>Lemon,food,fish,<br>fruit,vegetables</h2>
+                    <p>10% OFF</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        
+            <div class="card">
+              <div class="crd">
+                <img src="pic2.jpg" alt="">
+                <div class="cardText">
+                    <h2>Pizza Outlets</h2>
+                    <p>40% OFF</p>
+                    <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="crd">
+                <img src="pic3.jpg" alt="">
+                <div class="cardText">
+                    <h2>Vegitables Salads and Plates</h2>
+                    <p>30% OFF</p>
+                    <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>  
+        <!--best dish-->
+      <div class="dish" id="bestdish">
+          <div class="head">
+            <h1>our best <span>Dishe's</span></h1>
+          </div>
+          <div class="best">
+            <img src="pic4.jpg" alt="" />
+            <div class="bestText">
+              <h2>Best Dishes Ever </h2>
+              <img src="pic7.jpg" alt="" />
+              <p>Food blogs are where cookbooks meet lifestyle magazines. The bloggers range from home cooks who enjoy sharing their favorite creations, to the famous top chef who uses the virtual space to share their ultimate recipes and top tips. </p>
+              <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+            </div>
+          </div>
+          <div class="best">
+            <img src="pic5.jpg" alt="" />
+            <div class="bestText">
+              <h2>Best Dishes Ever </h2>
+              <img src="pic6.jpg" alt="" />
+              <p>Now packed with stunning photography and detailed recipes, food blogs have come a long way over the past decade or so to meet the exacting demands of virtual food lovers.</p>
+              <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+            </div>
+          </div>
+      </div>
+        <!-- order treak-->
+      <div class="treak" id="ordertreak">
+          <div class="head">
+            <h1>Treak <span>Order</span></h1>
+          </div>
+          <div class="order">
+              <div class="OrderText">
+                <i class="fa-solid fa-motorcycle"></i>
+                <h2>Treak order here</h2>
+                <button id="trackBtn">Treak Now</button>
+              </div>
+              <img src="mappic.png" alt="">
+          </div>
+      </div>
+      <!-- treak order -->
+      <div class="tracking">
+          <div class="trackText">
+            <h1>Live Order Tracking</h1>
+            <h2>Fast Delivery</h2>
+            <p>End-to-end tracking starting from order placement to<br> delivery of product. Team management solution.<br> Option to create teams & branches and manage user rights.</p>
+            <img src="tracking.jpg" alt="">
+          </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer" id="Footer">
+        <div class="Text">
+          <h2>About Us</h2>
+          <p>A restaurant is an establishment that <br>prepares and serves food and drinks to<br> customers. Meals are generally served and <br>eaten on the premises, but many restaurants <br>also offer take-out and food delivery services.  </p>
+        </div>
+        <div class="Text">
+          <h2>Our Foods</h2>
+          <p>Quality</p>
+          <p>price</p>
+          <p>servicr</p>
+          <p>quality</p>
+        </div>
+        <div class="Text">
+          <h2>Customer</h2>
+          <p>servicr</p>
+          <p>relation</p>
+          <p>quality</p>
+          <p>price</p>
+        </div>
+        <div class="Text" id="contect">
+          <h2>Contect Us </h2>
+          <p>A-33 Block</p> 
+          <p>Kudlu gte</p>
+          <p>service road</p>
+          <p>0022-4222</p>
+        </div>
+      </div> 
+    </div>
+  <script src="food.js"></script>  
+</body>
+</html>
